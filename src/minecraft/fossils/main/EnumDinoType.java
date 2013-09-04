@@ -1,5 +1,16 @@
 package fossils.main;
 
+import fossils.entity.EntityBrachiosaurus;
+import fossils.entity.EntityMosasaurus;
+import fossils.entity.EntityNautilus;
+import fossils.entity.EntityPlesiosaur;
+import fossils.entity.EntityPterosaur;
+import fossils.entity.EntityRaptor;
+import fossils.entity.EntityStegosaurus;
+import fossils.entity.EntityTRex;
+import fossils.entity.EntityTriceratops;
+import fossils.entity.Entitydil;
+
 public enum EnumDinoType {
 	Triceratops(EntityTriceratops.class,true),
 	Raptor(EntityRaptor.class,false),

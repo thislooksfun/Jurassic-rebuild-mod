@@ -1,5 +1,8 @@
 package fossils.main;
 
+import fossils.entity.EntityDinosaurce;
+import fossils.entity.ai.WaterDinoAISwimming;
+
 public class WaterDinoSwimmingFloatForSun extends WaterDinoAISwimming {
 
 	public WaterDinoSwimmingFloatForSun(EntityDinosaurce par1EntityDinosaurce,

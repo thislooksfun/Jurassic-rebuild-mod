@@ -3,6 +3,10 @@ package fossils.main;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Random;
 
+import fossils.entity.EntityDinoEgg;
+import fossils.entity.EntityDinosaurce;
+import fossils.entity.EntityNautilus;
+
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
