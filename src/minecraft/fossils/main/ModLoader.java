@@ -349,7 +349,8 @@ public class ModLoader
 
     public static void addTrade(int profession, TradeEntry entry)
     {
-        ModLoaderHelper.registerTrade(profession, entry);
+    	//TODO fix errored line below
+        //ModLoaderHelper.registerTrade(profession, entry);
     }
     /**
      * Send a packet from the client
@@ -503,7 +504,9 @@ public class ModLoader
     @SideOnly(CLIENT)
     public static int getUniqueBlockModelID(BaseMod mod, boolean inventoryRenderer)
     {
-        return ModLoaderClientHelper.obtainBlockModelIdFor(mod, inventoryRenderer);
+    	//TODO fix errored line below
+        //return ModLoaderClientHelper.obtainBlockModelIdFor(mod, inventoryRenderer);
+    	return 0;
     }
 
     /**
