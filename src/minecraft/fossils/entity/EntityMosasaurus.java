@@ -874,7 +874,7 @@ public class EntityMosasaurus extends EntityDinosaurce implements IWaterDino{
 			return 200;
 		}
 		@Override
-		protected void updateSize(boolean shouldAddAge) {
+		public void updateSize(boolean shouldAddAge) {
 			// TODO Auto-generated method stub
 			
 		}

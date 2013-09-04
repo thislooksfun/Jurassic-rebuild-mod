@@ -395,7 +395,7 @@ public abstract class EntityDinosaurce extends EntityTameable implements IEntity
 	
 	    }
 	}
-	protected abstract void updateSize(boolean shouldAddAge);
+	public abstract void updateSize(boolean shouldAddAge);
 	public boolean isYoung(){
 		return false;
 	}
@@ -496,7 +496,7 @@ public abstract class EntityDinosaurce extends EntityTameable implements IEntity
         }*/
 
 	}
-	protected void PickUpItem(Item getItem){
+	public void PickUpItem(Item getItem){
 		if (foodValue(getItem)>0){
 			HandleEating(getItem);
 		}else HoldItem(getItem);
