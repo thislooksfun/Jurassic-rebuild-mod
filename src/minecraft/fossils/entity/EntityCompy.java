@@ -902,7 +902,7 @@ public class EntityCompy extends EntityDinosaurce implements IHighIntellegent {
 				&& (this.motionZ < 0.03125F);
 	}
 
-	protected void updateSize(boolean shouldAddAge) {
+	public void updateSize(boolean shouldAddAge) {
 
 	}
 

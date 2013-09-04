@@ -800,7 +800,7 @@ public class EntityTriceratops extends EntityDinosaurce {
 	}
 
 	@Override
-	protected void updateSize(boolean shouldAddAge) {
+	public void updateSize(boolean shouldAddAge) {
 		if (shouldAddAge && this.getDinoAge() < this.AGE_LIMIT)
 			this.increaseDinoAge();
 		setSize((float) (1.5F + 0.3 * (float) this.getDinoAge()),

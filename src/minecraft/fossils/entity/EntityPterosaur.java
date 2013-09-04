@@ -935,7 +935,7 @@ public class EntityPterosaur extends EntityDinosaurce{
 	}
 
 	@Override
-	protected void updateSize(boolean shouldAddAge) {
+	public void updateSize(boolean shouldAddAge) {
 		if (shouldAddAge && this.getDinoAge()<this.AGE_LIMIT) this.increaseDinoAge();
 		setSize((float)(0.8F+0.2*(float)this.getDinoAge()),(float)(0.8F+0.2*(float)this.getDinoAge()));
 		

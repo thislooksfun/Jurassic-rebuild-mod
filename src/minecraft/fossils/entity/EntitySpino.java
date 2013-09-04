@@ -826,7 +826,7 @@ public class EntitySpino extends EntityDinosaurce{
 	    }
 
 		@Override
-		protected void updateSize(boolean shouldAddAge) {
+		public void updateSize(boolean shouldAddAge) {
 			// TODO Auto-generated method stub
 			
 		}
